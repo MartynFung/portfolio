@@ -12,10 +12,10 @@ export default class Projects extends React.Component {
                         </div>
                     </div>
                     <div className="row projects-content">
-                        <div className="col-six">
+                        <div className="col-six tab-full mob-full">
                             <div className="card">
                                 <a target="_blank" href="http://eleveight.co/">
-                                    <div className="card-img" style={{ backgroundImage: `url(images/portfolio/eleveight.png)` }}></div>
+                                    <div className="card-img" style={{ backgroundImage: `url(images/portfolio/eleveight.jpg)` }}></div>
                                 </a>
                                 <div className="card-content">
                                     <div className="card-tags">
@@ -32,9 +32,9 @@ export default class Projects extends React.Component {
                             </div>
                         </div>
 
-                        <div className="col-six">
+                        <div className="col-six tab-full mob-full">
                             <div className="card">
-                                <div className="card-img" style={{ backgroundImage: `url(images/portfolio/portfolioPage.png)` }}></div>
+                                <div className="card-img" style={{ backgroundImage: `url(images/portfolio/portfolioPage.jpg)` }}></div>
                                 <div className="card-content">
                                     <div className="card-tags">
                                         <div className="card-tag text-sm">Personal</div>
@@ -44,12 +44,12 @@ export default class Projects extends React.Component {
                                     </div>
                                     <h4>Portfolio Page</h4>
                                     <p>Designed a personal portfolio page using React.js, HTML, CSS. Currently in progress.</p>
-                                    <a rel="noopener noreferrer" target="_blank" href=""><strong>In Progress</strong></a>
+                                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/MartynFung/portfolio"><strong>View Code</strong></a>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-six">
+                        <div className="col-six tab-full mob-full">
                             <div className="card">
                                 <div className="card-img" style={{ backgroundImage: `url(images/portfolio/space.jpg)` }}></div>
                                 <div className="card-content">

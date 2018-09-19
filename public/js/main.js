@@ -256,45 +256,6 @@ jQuery(document).ready(function ($) {
 
     };
 
-
-    /* Stat Counter
-     * ------------------------------------------------------ */
-    var ssStatCount = function () {
-
-        var statSection = $(".s-stats"),
-            stats = $(".stats__count");
-
-        statSection.waypoint({
-
-            handler: function (direction) {
-
-                if (direction === "down") {
-
-                    stats.each(function () {
-                        var $this = $(this);
-
-                        $({ Counter: 0 }).animate({ Counter: $this.text() }, {
-                            duration: 4000,
-                            easing: 'swing',
-                            step: function (curValue) {
-                                $this.text(Math.ceil(curValue));
-                            }
-                        });
-                    });
-
-                }
-
-                // trigger once only
-                this.destroy();
-
-            },
-
-            offset: "90%"
-
-        });
-    };
-
-
     /* Smooth Scrolling
      * ------------------------------------------------------ */
     var ssSmoothScroll = function () {
@@ -333,61 +294,6 @@ jQuery(document).ready(function ($) {
 
     };
 
-
-    /* Contact Form
-     * ------------------------------------------------------ */
-    var ssContactForm = function () {
-
-        /* local validation */
-        $('#contactForm').validate({
-
-            /* submit via ajax */
-            submitHandler: function (form) {
-
-                var sLoader = $('.submit-loader');
-
-                $.ajax({
-
-                    type: "POST",
-                    url: "inc/sendEmail.php",
-                    data: $(form).serialize(),
-                    beforeSend: function () {
-
-                        sLoader.slideDown("slow");
-
-                    },
-                    success: function (msg) {
-
-                        // Message was sent
-                        if (msg == 'OK') {
-                            sLoader.slideUp("slow");
-                            $('.message-warning').fadeOut();
-                            $('#contactForm').fadeOut();
-                            $('.message-success').fadeIn();
-                        }
-                        // There was an error
-                        else {
-                            sLoader.slideUp("slow");
-                            $('.message-warning').html(msg);
-                            $('.message-warning').slideDown("slow");
-                        }
-
-                    },
-                    error: function () {
-
-                        sLoader.slideUp("slow");
-                        $('.message-warning').html("Something went wrong. Please try again.");
-                        $('.message-warning').slideDown("slow");
-
-                    }
-
-                });
-            }
-
-        });
-    };
-
-
     /* Back to Top
      * ------------------------------------------------------ */
     var ssBackToTop = function () {
@@ -413,6 +319,22 @@ jQuery(document).ready(function ($) {
     * ------------------------------------------------------ */
     var ssParticles = particlesJS.load('particles-js', 'assets/particles.json');
 
+    /* ScrollReveal.js
+    * ------------------------------------------------------ */
+
+    window.sr = ScrollReveal();
+
+    sr.reveal('.profile-img', {
+        duration: 2000,
+        origin: 'right',
+        distance: '200px'
+    });
+
+    sr.reveal('.card', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '200px'
+    });
 
     /* Initialize
      * ------------------------------------------------------ */
@@ -426,11 +348,9 @@ jQuery(document).ready(function ($) {
         ssPhotoswipe();
         ssSlickSlider();
         ssWaypoints();
-        ssStatCount();
         ssSmoothScroll();
         ssPlaceholder();
         ssAlertBoxes();
-        ssContactForm();
         ssBackToTop();
         ssParticles;
     })();
