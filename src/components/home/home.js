@@ -14,7 +14,7 @@ export default class Home extends React.Component {
                         </div>
                         <div className="home-content__subtitle">
                             <h3>Full Stack Web Developer</h3>
-                            <a href="#about" className="smoothscroll im im-angle-down"> </a>
+                            <a href="#about" className="smoothscroll fa fa-angle-down"> </a>
                         </div>
                     </div>
 

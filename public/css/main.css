@@ -4276,13 +4276,15 @@ article.blog-single .blog-content {
     border-color: white;
 }
 
-.home-content .im-angle-down {
+.home-content .fa-angle-down {
     color: white;
     opacity: 0.4;
+    font-size: 5rem;
 }
 
-.home-content .im-angle-down:hover {
+.home-content .fa-angle-down:hover {
     color: #00ddff;
+    font-size: 5rem;
     opacity: .9;
 }
 
