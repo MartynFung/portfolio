@@ -20,7 +20,7 @@ export default class About extends React.Component {
                     </div> {/* end about-content */}
                     <div className="row about-content about-content--buttons">
                         <div className="col-six tab-full left">
-                            <a href="/assets/Martyn_Fung_Resume.pdf" className="btn btn--primary full-width">Download Resume</a>
+                            <a href="https://www.dropbox.com/s/35vswmmf2fm5u81/Martyn%20Fung%20Resume.pdf?dl=0" className="btn btn--primary full-width">Download Resume</a>
                         </div>
                         <div className="col-six tab-full right">
 
