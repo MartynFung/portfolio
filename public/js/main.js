@@ -333,7 +333,8 @@ jQuery(document).ready(function ($) {
     sr.reveal('.card', {
         duration: 2000,
         origin: 'bottom',
-        distance: '200px'
+        distance: '200px',
+        vFactor: 0.2
     });
 
     /* Initialize
