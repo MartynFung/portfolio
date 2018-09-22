@@ -1,12 +1,12 @@
-## Portfolio
+# Portfolio
 
-### Live Site
+## Live Site
 https://www.martynfung.com
 
-### About
+## About
 This project was built using ReactJS (bootstrapped with react-create-app), HTML, CSS, and jQuery.
 
-### Features
+## Features
 - Fully responsive layout
 - Industry standard HTML and CSS selector conventions
 - Dynamic animations
