@@ -12,9 +12,10 @@ export default class Skills extends React.Component {
                         <div className="col-two">.</div>
                         <div className="col-eight text-left">
                             <ul>
-                                <li><strong>Front End: </strong>React.js, Redux, JavaScript, TypeScript, jQuery, Bootstrap, HTML, CSS</li>
-                                <li><strong>Middle Tier: </strong>C#, .NET</li>
-                                <li><strong>Back End: </strong>SQL/T-SQL, Stored Procedures</li>
+                                <li>C#, .NET, ADO.NET,  MVC, SQL, T-SQL, Stored Procedures, AWS</li>
+                                <li>React, Redux, JavaScript, TypeScript, jQuery, Bootstrap, HTML5, CSS3, Material Design</li>
+                                <li>Object-Oriented Programming, Agile, Scrum, Web API, RESTful API, WebPack, JSON, XML, AJAX</li>
+                                <li>Visual Studio, SSMS, SQL Server, Git, GitHub, NPM, TFS, REST Client, SharePoint, Adobe Photoshop</li>
                             </ul>
                         </div>
                         <div className="col-two">.</div>

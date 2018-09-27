@@ -20,6 +20,7 @@ export default class Projects extends React.Component {
                                 <div className="card-content">
                                     <div className="card-tags">
                                         <div className="card-tag text-sm">Work</div>
+                                        <div className="card-tag text-sm">|</div>
                                         <div className="card-tag text-sm">C#</div>
                                         <div className="card-tag text-sm">.NET</div>
                                         <div className="card-tag text-sm">SQL</div>
@@ -38,12 +39,15 @@ export default class Projects extends React.Component {
                                 <div className="card-content">
                                     <div className="card-tags">
                                         <div className="card-tag text-sm">Personal</div>
+                                        <div className="card-tag text-sm">|</div>
                                         <div className="card-tag text-sm">React.js</div>
+                                        <div className="card-tag text-sm">JavaScript</div>
+                                        <div className="card-tag text-sm">jQuery</div>
                                         <div className="card-tag text-sm">HTML</div>
                                         <div className="card-tag text-sm">CSS</div>
                                     </div>
                                     <h4>Portfolio Page</h4>
-                                    <p>Designed a personal portfolio page using React.js, HTML, CSS. Currently in progress.</p>
+                                    <p>Designed a responsive personal portfolio page using React.js, JavaScript, jQuery, HTML, CSS. Currently in progress.</p>
                                     <a rel="noopener noreferrer" target="_blank" href="https://github.com/MartynFung/portfolio"><strong>View Code</strong></a>
                                 </div>
                             </div>
@@ -55,6 +59,7 @@ export default class Projects extends React.Component {
                                 <div className="card-content">
                                     <div className="card-tags">
                                         <div className="card-tag text-sm">Personal</div>
+                                        <div className="card-tag text-sm">|</div>
                                         <div className="card-tag text-sm">C#</div>
                                         <div className="card-tag text-sm">.NET</div>
                                         <div className="card-tag text-sm">SQL</div>
