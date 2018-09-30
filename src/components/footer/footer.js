@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
                     <div className="row">
                         <div className="col-full">
                             <ul className="footer-social">
-                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/martyn-fung-b32bb599/">
+                                <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/martynfung">
                                     <i className="fa fa-linkedin" aria-hidden="true" />
                                     <span>LinkedIn</span>
                                 </a></li>

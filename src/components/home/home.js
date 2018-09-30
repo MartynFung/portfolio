@@ -19,7 +19,7 @@ export default class Home extends React.Component {
                     </div>
 
                     <ul className="intro-social">
-                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/martyn-fung-b32bb599/"><i className="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/martynfung"><i className="fa fa-linkedin"></i></a></li>
                         <li><a href="mailto:mknfung@gmail.com"> <i className="fa fa-envelope"></i></a></li>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/MartynFung"> <i className="fa fa-github"></i></a></li>
                     </ul>
