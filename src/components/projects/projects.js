@@ -42,9 +42,6 @@ export default class Projects extends React.Component {
                                         <div className="card-tag text-sm">|</div>
                                         <div className="card-tag text-sm">React.js</div>
                                         <div className="card-tag text-sm">JavaScript</div>
-                                        <div className="card-tag text-sm">jQuery</div>
-                                        <div className="card-tag text-sm">HTML</div>
-                                        <div className="card-tag text-sm">CSS</div>
                                     </div>
                                     <h4>Portfolio Page</h4>
                                     <p>Designed a responsive personal portfolio page using React.js, JavaScript, jQuery, HTML, CSS. Currently in progress.</p>
