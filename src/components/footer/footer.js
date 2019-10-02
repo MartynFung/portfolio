@@ -26,7 +26,7 @@ export default class Footer extends React.Component {
                     <div className="row footer-bottom">
                         <div className="col-twelve">
                             <div className="copyright">
-                                <span>Built by yours truly with React.js</span>
+                                <span>Built with React.js</span>
                             </div>
                             <div className="go-top">
                                 <a className="smoothscroll" title="Back to Top" href="#top"> <i className="fa fa-arrow-up" aria-hidden="true" /></a>

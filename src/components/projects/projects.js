@@ -8,7 +8,6 @@ export default class Projects extends React.Component {
                     <div className="row projects-content">
                         <div className="col-full text-center">
                             <h1>Projects</h1>
-                            <p>In Progress...</p>
                         </div>
                     </div>
                     <div className="row projects-content">
@@ -24,11 +23,11 @@ export default class Projects extends React.Component {
                                         <div className="card-tag text-sm">C#</div>
                                         <div className="card-tag text-sm">.NET</div>
                                         <div className="card-tag text-sm">SQL</div>
-                                        <div className="card-tag text-sm">React.js</div>
+                                        <div className="card-tag text-sm">React</div>
                                     </div>
                                     <h4>Eleveight</h4>
                                     <p>Created an MVP web application for Eleveight utilizing C#, .NET, Web API, React.JS, HTML, CSS, Bootstrap</p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/MartynFung/work_samples"><strong>View Code</strong></a>
+                                    {/* <a rel="noopener noreferrer" target="_blank" href="https://github.com/MartynFung"><strong>View Code</strong></a> */}
                                 </div>
                             </div>
                         </div>
@@ -40,12 +39,12 @@ export default class Projects extends React.Component {
                                     <div className="card-tags">
                                         <div className="card-tag text-sm">Personal</div>
                                         <div className="card-tag text-sm">|</div>
-                                        <div className="card-tag text-sm">React.js</div>
+                                        <div className="card-tag text-sm">React</div>
                                         <div className="card-tag text-sm">JavaScript</div>
                                     </div>
                                     <h4>Portfolio Page</h4>
-                                    <p>Designed a responsive personal portfolio page using React.js, JavaScript, jQuery, HTML, CSS. Currently in progress.</p>
-                                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/MartynFung/portfolio"><strong>View Code</strong></a>
+                                    <p>Designed a responsive personal portfolio page using React.js, JavaScript, jQuery, HTML, CSS.</p>
+                                    {/* <a rel="noopener noreferrer" target="_blank" href="https://github.com/MartynFung"><strong>View Code</strong></a> */}
                                 </div>
                             </div>
                         </div>
@@ -58,13 +57,12 @@ export default class Projects extends React.Component {
                                         <div className="card-tag text-sm">Personal</div>
                                         <div className="card-tag text-sm">|</div>
                                         <div className="card-tag text-sm">C#</div>
-                                        <div className="card-tag text-sm">.NET</div>
-                                        <div className="card-tag text-sm">SQL</div>
-                                        <div className="card-tag text-sm">React.js</div>
+                                        <div className="card-tag text-sm">.NET Core</div>
+                                        <div className="card-tag text-sm">React</div>
                                     </div>
-                                    <h4>Rentfinder</h4>
-                                    <p>Collaboration tool to find the best place to live. Built a webscraper to pull housing details from Zillow.</p>
-                                    <a rel="noopener noreferrer" target="_blank" href=""><strong>In Progress</strong></a>
+                                    <h4>WeatherApp</h4>
+                                    <p>Minimal React app that pulls weather info from OpenWeatherMap API</p>
+                                    {/* <a rel="noopener noreferrer" target="_blank" href="https://github.com/MartynFung"><strong>View Code</strong></a> */}
                                 </div>
                             </div>
                         </div>

@@ -10,8 +10,8 @@ export default class About extends React.Component {
                         <div className="col-six tab-full left">
                             <h3>Hi there! I'm Martyn.</h3>
                             <p>I am a Full Stack developer based in Southern California with a passion for creating beautifully functional websites and solving problems.</p>
-                            <p>Feel free to check out the projects I have built using a variety of technologies including React, C#, .NET, SQL Server and more.</p>
-                            <p>Connect with me through my email or LinkedIn, and check out my work samples at my GitHub!</p>
+                            <p>Feel free to check out the projects I have built using a variety of technologies including Angular, React, C#, .NET, SQL Server and more.</p>
+                            <p>Connect with me through my email or LinkedIn!</p>
                         </div>
                         <div className="col-six tab-full right">
                             <h3> </h3>
@@ -20,7 +20,7 @@ export default class About extends React.Component {
                     </div> {/* end about-content */}
                     <div className="row about-content about-content--buttons">
                         <div className="col-six tab-full left">
-                            <a href="https://www.dropbox.com/s/mv6k0xuejy00ppt/Martyn%20Fung%20Resume.pdf?dl=0" className="btn btn--primary full-width">Download Resume</a>
+                            <a href="https://www.dropbox.com/s/gequ1raao1f8v5v/Martyn%20Fung%20Resume.pdf?dl=0" className="btn btn--primary full-width">Download Resume</a>
                         </div>
                         <div className="col-six tab-full right">
 

@@ -13,7 +13,7 @@ export default class Home extends React.Component {
                             <h1>Martyn <span className="accent-color">Fung</span></h1>
                         </div>
                         <div className="home-content__subtitle">
-                            <h3>Full Stack Web Developer</h3>
+                            <h3>Full Stack Developer</h3>
                             <a href="#about" className="smoothscroll fa fa-angle-down"> </a>
                         </div>
                     </div>

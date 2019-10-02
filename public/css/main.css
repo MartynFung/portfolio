@@ -2804,3 +2804,18 @@ footer a:hover, footer a:focus {
 .card .card-content a strong:hover{
     color:#00ddff;
 }
+
+.skill-wrapper {
+    display: flex;
+}
+.skill-column {
+    flex: 0 0 33%;
+}
+.nobullet {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.fa {
+    padding-bottom: 3px;
+}
