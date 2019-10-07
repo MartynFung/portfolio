@@ -10,7 +10,7 @@ export default class About extends React.Component {
                         <div className="col-six tab-full left">
                             <h3>Hi there! I'm Martyn.</h3>
                             <p>I am a Full Stack developer based in Southern California with a passion for creating beautifully functional websites and solving problems.</p>
-                            <p>I have experience using a variety of technologies including Angular, React, C#, .NET, SQL and more.</p>
+                            <p>I have experience using a variety of technologies including Angular, React, C#, .NET, SQL, and more.</p>
                             <p>Connect with me through my email or LinkedIn!</p>
                         </div>
                         <div className="col-six tab-full right">
