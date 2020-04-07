@@ -23,10 +23,8 @@ export default class Resume extends React.Component {
                                         <ul>
                                             <li>Built software solutions for technicians in field service companies.</li>
                                             <li>Developed and designed an <strong>Angular</strong> web application using C#, .NET, and MVC.</li>
-                                            <li>Implemented a <strong>mobile application</strong> using Ionic framework for both iOS and Android.</li>
                                             <li>Wrote serverless <strong>Azure Functions</strong> in C# for modular backend services.</li>
                                             <li>Integrated <strong>Azure Maps</strong> geospatial services into fleet management application.</li>
-                                            <li>Created <strong>Http Clients</strong> to communicate with MS Dynamics 365 Database.</li>
                                             <li>Embraced <strong>Agile</strong> development methodologies and version control (Git).</li>
                                         </ul>
                                     </div>
