@@ -8,5 +8,5 @@ This project was built using ReactJS (bootstrapped with react-create-app), HTML,
 
 ## Features
 - Fully responsive layout
-- Industry standard HTML and CSS selector conventions
+- Material Design
 - Dynamic animations
